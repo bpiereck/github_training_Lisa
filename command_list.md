@@ -43,3 +43,4 @@ To push the current branch and set the remote as upstream, use
 To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 ```
+`git pull`: to update from remote to local with changes made by my collaborators or directly on the remote repository
