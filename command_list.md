@@ -10,6 +10,14 @@ Untracked: Completely new file, never seen it before
 
 Good pratice: check the status of your file before every commit
 
+- basic routine
+
+`git add <filename>` : this will add the file to the staging area. Area to organize your "library" structure.
+
+`git commit -m "meaningful commit message"` : this will create a version in my timeline
+
+- time travelling
+
 `git log <filename>`: to get a timeline of all the commits
 
 `git log -n 3 --abbrev-commit`: will give only the last 3 commits with the smallest commit_hash as possible. 
@@ -18,12 +26,20 @@ Good pratice: check the status of your file before every commit
 
 `git show <commit_hash1>` or `git show <commit_hash1> <commit_hash2>` : show the changes that were made in a chosen commit
 
-- basic routine
+- Go from local to remote
 
-`git add <filename>` : this will add the file to the staging area. Area to organize your "library" structure.
+`git remote add origin <ssh-address>`: this will create a bridge between the local and the remote repositories
 
-`git commit -m "meaningful commit message"` : this will create a version in my timeline
+`git push`: will send all the commits to the remote repository
 
+On the first time you try to push you might get the error message: 
 
+```
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
 
-`
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+```
