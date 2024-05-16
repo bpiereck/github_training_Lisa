@@ -4,8 +4,12 @@
 
 2. GitHub: collection of different gits. Is a cloud-based system that collects different Gits.
 
-3. Developing area: is the project folder that was initiated as a git repository
+3. Conceptual areas: 
+- Developing area: is the project folder that was initiated as a git repository
 
-4. Local repository: hidden file .git where all the changes are being tracked and kept (timeline)
+- Local repository: hidden file .git where all the changes are being tracked and kept (timeline)
 
-5. Staging area: location used to prepare new snapshots to the timeline. Temporary, intermediary area to prepare the commit.
+- Staging area: location used to prepare new snapshots to the timeline. Temporary, intermediary area to prepare the commit. This area is important because it allows you to organize your files. You can add several files for which changes are linked and then commit both files together with only one message.
+
+What happen if I forget the `-m` in my commit?
+It opens a text editor and allows you to write a longer message (unlimited characters)
