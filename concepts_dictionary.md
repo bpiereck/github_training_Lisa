@@ -9,13 +9,3 @@
 4. Local repository: hidden file .git where all the changes are being tracked and kept (timeline)
 
 5. Staging area: location used to prepare new snapshots to the timeline. Temporary, intermediary area to prepare the commit.
-
-# Command lists
-
-`git init` : initialize the local repository
-
-- basic routine
-
-`git add <filename>` 
-
-`git commit -m "meaningful commit message"`
