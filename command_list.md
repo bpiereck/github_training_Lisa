@@ -44,3 +44,11 @@ To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 ```
 `git pull`: to update from remote to local with changes made by my collaborators or directly on the remote repository
+
+- Accidents
+
+After deletion of a local repository:
+`git clone <remote_repository_ssh_address>`
+
+After committing an unwanted version:
+`git revert <commit_hash_of_the_unwanted_version>`
