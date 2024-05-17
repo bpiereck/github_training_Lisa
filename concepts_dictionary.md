@@ -26,3 +26,5 @@ You create "a bridge" or connection, while to send commit through the bridge you
 7. How to collaborate?
 You invite the collaborators through github.com. You go to the repository on github, click settings, collaborators in the left panel, click the green 'Add people' button and add their username or email adress.
 When someone has invited you, after accepting, you clone the repository locally (not in a folder already tracked by git) and can start making changes. To save the changes you do the normal git add, git commit -m 'message' and git push.
+
+8. Git branch: You can create a branch to work on your code without affecting the original code tht is in the main branch.

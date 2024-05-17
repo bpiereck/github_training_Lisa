@@ -52,3 +52,14 @@ After deletion of a local repository:
 
 After committing an unwanted version:
 `git revert <commit_hash_of_the_unwanted_version>`
+
+- Branches
+
+To create a new branch:
+`git branch <name_of_branch>`
+
+To move inside the new branch:
+`git checkout <name_of_branch>`
+
+To push to the new branch:
+`git push --set-upstream origin <name_of_branch>`
