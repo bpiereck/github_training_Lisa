@@ -29,4 +29,4 @@ When someone has invited you, after accepting, you clone the repository locally 
 
 8. Working Risk Free
 
-Git branch: allows you create a new branch to develop your code without affecting the main branch
+Git branch: allows you create a new branch to develop your code without affecting the main branch. Create a new timeline with the versions from your main branch and the new versions from your branch.
