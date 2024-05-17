@@ -52,3 +52,6 @@ After deletion of a local repository:
 
 After committing an unwanted version:
 `git revert <commit_hash_of_the_unwanted_version>`
+
+- Working Risk free:
+`git branch <new_branch>`: to create a new branch
