@@ -79,3 +79,12 @@ To see all the local branches:\
 
 `git switch -c <new_branch>`: will attach the detached head as a new branch
 
+- Merging branches
+
+`git merge <name_of_the_branch_you_want_to_merge_with_main>`: this will merge your branch into the main (don't forget to checkout to the main before you merge). Resolve the conflits in TextEditor (like Visual Studio Code) and then add and commit, The merge will then be automatic.
+
+- Tagging
+
+`git tag <name>`: name a commit to mark a release/good state
+`git push --tags`: you have to use this command otherwise the tags are not added to GitHub
+
