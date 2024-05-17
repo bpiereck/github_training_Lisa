@@ -35,3 +35,4 @@ Mirror effect: you will see in your folder, all the copies of the files that are
 
 You detach a version of your code to a separated head that will not be linked to the main or another branch. It is possible to immediately link it back to a branch or later (but more complex).
 
+10. Tagging: it enables you to mark a specific release or version of your code. The tags will also enable you to download a .zip file of your remote repository once on GitHub.
