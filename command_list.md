@@ -73,3 +73,8 @@ To see all the branches (also the remote ones):\
 To see all the local branches:\
 `git branch --list` or `git branch -l`
 
+- Detached head
+
+`git checkout <commit_hash>`: will create a detached head with a past version of your code
+
+`git switch -c <new_branch>`: will attach the detached head as a new branch
