@@ -78,3 +78,4 @@ To see all the local branches:\
 `git checkout <commit_hash>`: will create a detached head with a past version of your code
 
 `git switch -c <new_branch>`: will attach the detached head as a new branch
+
